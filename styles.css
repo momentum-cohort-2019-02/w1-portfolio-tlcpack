@@ -1,10 +1,7 @@
-.header {
-    display: flex;
-    margin: 7px;
-    flex-wrap: wrap;
-}
+
 .half {
     width: 50%;
+    text-align: center;
 }
 .spacer {
     padding: 10px;
@@ -15,26 +12,14 @@
     background:
         linear-gradient(rgba(78, 78, 78, .4),rgba(78, 78, 78, .4));
 }
-.right {
-    display: flex;
-    justify-content: flex-end;
-}
-.left {
-    display: flex;
-    justify-content: flex-start;
-}
-.bio {
-    display: flex;
-}
+
 .center {
         width: 50%;
         margin: 10px;
         padding: 10px;
         text-align: center
 }
-.projects {
-    display: flex;
-}
+
 .split {
     width: 50%;
     margin: 10px;
@@ -47,6 +32,32 @@
     width: 75%;
     height: 75%;
 }
-.contact {
-    display: flex;
+.social {
+    width: 7%;
+    height: 7%;
+}
+
+@media screen and (min-width: 768px) {
+    .header {
+        display: flex;
+        margin: 0 auto;
+        flex-wrap: wrap;
+    }
+    .right {
+        display: flex;
+        justify-content: flex-end;
+    }
+    .left {
+        display: flex;
+        justify-content: flex-start;
+    }
+    .bio {
+        display: flex;
+    }
+    .projects {
+        display: flex;
+    }
+    .contact {
+        display: flex;
+    }
 }
