@@ -3,15 +3,11 @@
     margin: 7px;
     flex-wrap: wrap;
 }
-.gray {
-    background:
-        linear-gradient(rgba(78, 78, 78, .4),rgba(78, 78, 78, .4)),
+.half {
+    width: 50%;
 }
 .spacer {
     padding: 10px;
-}
-.half {
-    width: 50%;
 }
 .right {
     display: flex;
@@ -21,14 +17,6 @@
     display: flex;
     justify-content: flex-start;
 }
-.projects {
+.contact {
     display: flex;
-}
-.info {
-    width: 50%;
-}
-
-.pic {
-    width: 75%;
-    height: 75%;
 }
