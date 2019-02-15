@@ -1,43 +1,56 @@
-
+* {
+    font-family: 'Source Sans Pro', sans-serif;
+}
 .half {
-    width: 50%;
+    /* width: 50%; */
     text-align: center;
 }
+.name {
+    text-decoration: none;
+}
+
 .spacer {
     padding: 10px;
     border: solid;
-    border-radius: 12px;
+    border-radius: 50px;
+   
 }
 .gray {
     background:
-        linear-gradient(rgba(78, 78, 78, .4),rgba(78, 78, 78, .4));
+        linear-gradient(rgba(78, 78, 78, .4),rgba(165, 42, 42, 0.4));
 }
 
 .center {
-        width: 50%;
         margin: 10px;
         padding: 10px;
         text-align: center
 }
 
-.split {
-    width: 50%;
+.split { 
     margin: 10px;
     padding: 10px;
 }
-.info {
-    width: 50%;
-}
+
 .pic {
     width: 75%;
     height: 75%;
+    margin: 25px;
+
 }
 .social {
     width: 7%;
     height: 7%;
 }
+.old_job_font {
+    font-size: 14px;
+}
+.feature {
+    color: rgb(150, 41, 41);
+}
 
 @media screen and (min-width: 768px) {
+    
+    
     .header {
         display: flex;
         margin: 0 auto;
@@ -45,10 +58,12 @@
     }
     .right {
         display: flex;
+        width: 50%;
         justify-content: flex-end;
     }
     .left {
         display: flex;
+        width: 50%;
         justify-content: flex-start;
     }
     .bio {
@@ -58,6 +73,16 @@
         display: flex;
     }
     .contact {
-        display: flex;
+        text-align: center;
+    }
+    .info {
+        width: 50%;
+    }
+
+    .center {
+        width: 50%;
+    }
+    .split {
+        width: 50%;
     }
 }
